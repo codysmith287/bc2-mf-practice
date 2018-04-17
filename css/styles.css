@@ -1,0 +1,42 @@
+.padawan {
+  padding:40px;
+}
+
+.border {
+  border: 5px solid #000;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+  height: 150px;
+}
+
+.green {
+  background-color: green;
+  height: 75px;
+}
+
+.red {
+  background-color: red;
+  height: 200px;
+}
+
+.light-blue {
+  background-color: lightblue;
+  height: 200px;
+}
+
+.orange {
+  background-color: orange;
+  height: 125px;
+}
+
+.black {
+  background-color: black;
+  color: white;
+  height:50px;
+}
