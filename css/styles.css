@@ -25,7 +25,7 @@
   height: 200px;
 }
 
-.light-blue {
+.lightblue {
   background-color: lightblue;
   height: 200px;
 }
@@ -39,4 +39,66 @@
   background-color: black;
   color: white;
   height:50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .yellow {
+    background-color: #FFFFFF;
+  }
+
+  .blue {
+    background-color: cyan;
+  }
+
+  .green  {
+    background-color: magenta;
+  }
+
+  .red {
+    background-color: lightblue;
+  }
+
+  .lightblue {
+    background-color: red;
+  }
+
+  .orange {
+    background-color: blue;
+  }
+
+  .black {
+    background-color: purple;
+    color: cyan;
+  }
+}
+
+@media only screen and (min-width: 875px) {
+  .yellow {
+    background-color: purple;
+  }
+
+  .blue {
+    background-color: red;
+  }
+
+  .green  {
+    background-color: blue;
+  }
+
+  .red {
+    background-color: green;
+  }
+
+  .lightblue {
+    background-color: orange;
+  }
+
+  .orange {
+    background-color: yellow;
+  }
+
+  .black {
+    background-color: #ffffff;
+    color: #000;
+  }
 }
